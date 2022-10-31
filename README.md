@@ -6,7 +6,10 @@ The purpose of this project was to implement REST API for quadratic equation.
 <br>Akka HTTP was selected for this project.
 
 This project is an extension of Akka HTTP's quickstart project available on Lightbend's website at https://developer.lightbend.com/guides/akka-http-quickstart-scala/.
+<br>
 <br>Without affecting the existing functionality, new functionality was added.
+This decision was made in order to demonstrate ability to add functionliity to existing projects
+without breaking the existing functionality, which is a more often scenario in real life. 
 
 ### How to start the application
 To try the application, you can load the project into Intellij Idea, right-click on QuickStartApp.scala and select "Run".
