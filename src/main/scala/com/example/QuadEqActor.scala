@@ -16,9 +16,7 @@ object QuadEqActor {
 
   final case class CalculationResponse(roots: Set[Double])
 
-  def apply(): Behavior[Command] = foo()
-
-  private def foo(): Behavior[Command] =
+  def apply(): Behavior[Command] =
     Behaviors.receiveMessage {
       // Calculate from QuadEqQuery (which comes from POST)
       case Calculate(query, replyTo) =>
